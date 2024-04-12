@@ -1,0 +1,33 @@
+.Noti {
+	position: absolute;
+	right: 0;
+	margin-right: 20px;
+}
+
+div .menuItem {
+	display: flex;
+	align-items: center;
+	justify-content: flex-end;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+.Notifications {
+	position: relative;
+	border: 1px dashed #e1484c;
+	padding: 10px;
+	width: 100%;
+}
+
+.Notifications ul {
+	margin-left: 20px;
+	margin-top: 20px;
+}
+
+[data-notification-type='default'] {
+	color: blue;
+}
+
+[data-notification-type='urgent'] {
+	color: #ff0000;
+}
