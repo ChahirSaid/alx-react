@@ -1,0 +1,53 @@
+*, *::after, *::before {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+.App-header {
+  display: flex;
+  align-items: center;
+  border-bottom: #e11d3f 5px solid;
+}
+
+.App-header img {
+  width: 200px;
+  margin-left: 20px;
+}
+
+.App-header h1 {
+  font-size: 4rem;
+  color: #e11d3f;
+  font-weight: bold;
+}
+
+.App-body {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+  padding: 2rem;
+  font-size: 2rem;
+  margin-top: 30px;
+}
+
+form {
+  display: flex;
+}
+
+.App-footer {
+  position: absolute;
+  bottom: 0;
+  display: flex;
+  width: 100%;
+  padding: 20px 0;
+  justify-content: center;
+  align-items: center;
+  border-top: #e11d3f 5px solid;
+  font-size: 1.5rem;
+
+}
